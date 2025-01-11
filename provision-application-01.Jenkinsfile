@@ -20,7 +20,7 @@ pipeline {
             steps {
                 sh '''
                 cd terraform
-                terrform fmt .
+                terraform fmt .
                 terraform validate
                 '''
             }
